@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <form [formGroup]="form" class="card">
+        <legend class="card-header">Login</legend>
+        <fieldset class="card-body d-grid gap-3">
+            <div class="form-outline form-field ">
+                <input class="form-control" name="email" formControlName="email" id="typeEmail" type="email">
+                <label class="form-label" for="typeEmail">Email:</label>
+            </div>
+            <div class="form-outline form-field ">
+                <input class="form-control" name="password" formControlName="password" id="typePassword" type="password">
+                <label class="form-label" for="typePassword">Password:</label>
+            </div>
+        </fieldset>
+        <div class="form-buttons text-center">
+            <button class="button btn button-primary" (click)="login()">Login</button>
+        </div>
+    </form>
+</div>

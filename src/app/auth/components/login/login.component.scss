@@ -1,0 +1,27 @@
+.container-fluid{
+    max-width: 25rem;
+}
+
+.card{
+    top: 5rem;
+    .card-body{
+        display: grid;
+    }
+}
+
+.form-buttons{
+    padding: 10px;
+}
+
+.card-header{
+    background:#E7607B;
+}
+
+.card-text{
+    display: grid;
+}
+
+.form-outline .form-control {
+        border: 1px solid #bdbdbd;
+        background: #D6E5E9;
+}
